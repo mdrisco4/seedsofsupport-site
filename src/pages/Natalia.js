@@ -47,7 +47,7 @@ const BoardDescription = styled.div`
 
 const Natalia = () => (
   <Layout>
-    <BoardPhoto src="https://i.imgur.com/2xZ4epu.jpg" />
+    <BoardPhoto src="https://imgur.com/5nsBb1D" />
       <div>
         <BoardTitle>Advisory Board Member: Natalia Thurston</BoardTitle>
         <BoardDescription>
