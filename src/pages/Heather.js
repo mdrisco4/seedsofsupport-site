@@ -17,6 +17,7 @@ const BoardTitle = styled.div`
   font-size: 20px;
   margin-left: 10px;
   font-weight: bold;
+  line-height: 35px;
   @media (min-width: 550px) {
     font-size: 28px;
   }
@@ -33,6 +34,7 @@ const BoardDescription = styled.div`
   margin-left: 10px;
   color: rgb(35, 77, 32);
   font-weight: bold;
+  line-height: 35px;
   @media (min-width: 550px) {
     font-size: 20px;
   }
