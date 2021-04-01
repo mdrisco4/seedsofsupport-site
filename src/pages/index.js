@@ -13,7 +13,7 @@ const Logo = styled.div`
 
 const IndexPage = () => (
   <Layout>
-    <Logo>dgfhjs</Logo>
+    <Logo></Logo>
     <Home></Home>
     {/* <Link to="/Jake/">Jake Sassaman</Link> <br />
     <Link to="/Heather/">Heather Yount</Link> <br />

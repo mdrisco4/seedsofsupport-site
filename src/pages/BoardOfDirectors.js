@@ -45,25 +45,14 @@ const BoardDescription = styled.div`
   }
 `;
 
-const Natalia = () => (
+const Jake = () => (
   <Layout>
-    <BoardPhoto src="https://i.imgur.com/5nsBb1D.png" />
-      <div>
-        <BoardTitle>Advisory Board Member: Natalia Thurston</BoardTitle>
-        <BoardDescription>
-        Natalia Thurston, J.D., M.B.A., serves as an Advisory Board member for
-Seeds of Support.  Natalia is the founder of CBD Professionals, one of
-California’s first cannabis business law firms established in 2009.
-Under Prop 215, Natalia helped medical cannabis patients organize
-collectively to cultivate and dispense cannabis to qualified patients.
-Committed to compassionate use, Natalia serves as pro bono counsel to
-Sweetleaf Collective, a San Francisco collective providing free
-medical cannabis to low income patients since 1996 and now serving
-patients under SB 34, the Dennis Peron and Brownie Mary Act.
-        </BoardDescription>
+    <BoardPhoto src="https://i.imgur.com/RVGefKN.png" />
+    <div>
+        Board of Directors Page Under Construction
       </div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
-export default Natalia
+export default Jake

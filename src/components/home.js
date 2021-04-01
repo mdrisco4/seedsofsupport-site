@@ -8,6 +8,7 @@ const SectionTitle = styled.div`
   color: rgb(123, 94, 55);
   font-weight: bold;
   margin-bottom: 20px;
+  line-height: 50px;
   @media (min-width: 800px) {
   }
   @media (min-width: 1150px) {
@@ -42,18 +43,22 @@ const BoardMemberContainer = styled.div`
 `
 
 const BoardPhoto = styled.img`
-  height: 250px;
+  height: auto;
+  width: 20%;
   @media (min-width: 800px) {
   }
   @media (min-width: 1150px) {
-    height: 340px;
+    /* height: 340px; */
   }
 `
 
 const BoardTitle = styled.div`
   font-size: 20px;
   margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   font-weight: bold;
+  line-height: 35px;
   @media (min-width: 550px) {
     font-size: 28px;
   }
@@ -61,7 +66,7 @@ const BoardTitle = styled.div`
     font-size: 35px;
   }
   @media (min-width: 1150px) {
-    font-size: 44px;
+    font-size: 40px;
   }
 `
 
@@ -168,7 +173,7 @@ const Home = () => (
       </div>
     </BoardMemberContainer>
     <BoardMemberContainer>
-      <BoardPhoto src="https://i.imgur.com/2xZ4epu.jpg" />
+      <BoardPhoto src="https://i.imgur.com/5nsBb1D.png" />
       <div>
         <Link to="/Natalia/">
           <BoardTitle>Advisory Board Member: Natalia Thurston</BoardTitle>

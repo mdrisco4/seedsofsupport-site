@@ -37,7 +37,6 @@ const Layout = ({ children }) => {
         <footer style={{
           marginTop: `2rem`
         }}>
-          <p>the</p>
         </footer>
       </div>
     </>
