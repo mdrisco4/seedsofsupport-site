@@ -27,7 +27,9 @@ const Header = ({ siteTitle }) => (
     }}
   >
     <NavBar>
-      <img src="https://i.imgur.com/3ei96FN.png" alt="logo" className="logo" />
+      <Link to="/">
+        <img src="https://i.imgur.com/3ei96FN.png" alt="logo" className="logo" />
+        </Link>
       <h1>
         <Link to="/About/">About</Link>
       </h1>
