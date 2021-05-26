@@ -191,7 +191,9 @@ const Home = () => (
         </BoardDescription>
       </div>
     </BoardMemberContainer>
+    <Link to="/Contact/">
     <SectionTitle>Contact Us</SectionTitle>
+    </Link>
     <FooterContainer>
       {/* <div>
         <ContactInfo>560 Thomas L. Berkley Way</ContactInfo>
