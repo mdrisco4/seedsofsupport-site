@@ -16,7 +16,22 @@ const NavBar = styled.div`
     justify-content: space-between;
     padding: 20px 15px 0 15px;
     max-width: 1250px;
+    margin: auto;
   }
+`
+
+const Logo = styled.img`
+margin: auto;
+  display: block;
+@media (min-width: 1150px) {
+
+}
+`
+
+const HeaderItem = styled.h1`
+text-align: center;
+@media (min-width: 1150px) {
+}
 `
 
 const Header = ({ siteTitle }) => (
@@ -28,20 +43,20 @@ const Header = ({ siteTitle }) => (
   >
     <NavBar>
       <Link to="/">
-        <img src="https://i.imgur.com/3ei96FN.png" alt="logo" className="logo" />
+        <Logo src="https://i.imgur.com/3ei96FN.png" alt="logo" className="logo" />
         </Link>
-      <h1>
+      <HeaderItem>
         <Link to="/About/">About</Link>
-      </h1>
-      <h1>
+      </HeaderItem>
+      <HeaderItem>
         <Link to="/OurMission/">Our Mission</Link>
-      </h1>
-      <h1>
+      </HeaderItem>
+      <HeaderItem>
         <Link to="/BoardOfDirectors/">Board of Directors</Link>
-      </h1>
-      <h1>
+      </HeaderItem>
+      <HeaderItem>
         <Link to="/Contact/">Contact</Link>
-      </h1>
+      </HeaderItem>
     </NavBar>
     <Link
       to="/"
