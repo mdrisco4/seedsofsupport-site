@@ -32,9 +32,13 @@ const MissionStatement = styled.div`
 
 const BoardMemberContainer = styled.div`
   display: flex;
+  flex-direction: column;
   margin-bottom: 12px;
   @media (min-width: 650px) {
     padding-left: 10px;
+  }
+  @media (min-width: 768px) {
+    flex-direction: row;
   }
   @media (min-width: 800px) {
   }
@@ -44,7 +48,12 @@ const BoardMemberContainer = styled.div`
 
 const BoardPhoto = styled.img`
   height: auto;
-  width: 20%;
+   width: 80%;
+   margin: 0 10% 0 10%;
+  @media (min-width: 768px) {
+    width: 20%;
+    margin: 0 0 0 0;
+  }
   @media (min-width: 800px) {
   }
   @media (min-width: 1150px) {
