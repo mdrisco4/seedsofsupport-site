@@ -21,41 +21,77 @@ const NavBar = styled.div`
 `
 
 const Logo = styled.img`
-margin: auto;
+  margin: auto;
   display: block;
-@media (min-width: 1150px) {
-
-}
+  @media (min-width: 1150px) {
+  }
 `
 
 const HeaderItem = styled.h1`
-text-align: center;
-@media (min-width: 1150px) {
-}
+  text-align: center;
+  @media (min-width: 1150px) {
+  }
 `
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
       background: "rgb(30, 30, 30)",
-      marginBottom: `1.45rem`,
+      // marginBottom: `1.45rem`,
     }}
   >
     <NavBar>
-      <Link to="/">
-        <Logo src="https://i.imgur.com/3ei96FN.png" alt="logo" className="logo" />
+      <Link
+        to="/"
+        style={{
+          textdecoration: "none",
+        }}
+      >
+        <Logo
+          src="https://i.imgur.com/3ei96FN.png"
+          alt="logo"
+          className="logo"
+        />
+      </Link>
+      <HeaderItem>
+        <Link
+          to="/About/"
+          style={{
+            textdecoration: "none",
+          }}
+        >
+          About
         </Link>
-      <HeaderItem>
-        <Link to="/About/">About</Link>
       </HeaderItem>
       <HeaderItem>
-        <Link to="/OurMission/">Our Mission</Link>
+        <Link
+          to="/OurMission/"
+          style={{
+            textdecoration: "none",
+          }}
+        >
+          Our Mission
+        </Link>
       </HeaderItem>
       <HeaderItem>
-        <Link to="/BoardOfDirectors/">Board of Directors</Link>
+        <Link
+          to="/BoardOfDirectors/"
+          style={{
+            textdecoration: "none",
+          }}
+        >
+          Board of Directors
+        </Link>
       </HeaderItem>
       <HeaderItem>
-        <Link to="/Contact/">Contact</Link>
+        <Link
+          to="/Contact/"
+          style={{
+            textdecoration: "none",
+          }}
+        >
+          Contact
+        </Link>
       </HeaderItem>
     </NavBar>
     <Link

@@ -48,8 +48,8 @@ const BoardMemberContainer = styled.div`
 
 const BoardPhoto = styled.img`
   height: auto;
-   width: 80%;
-   margin: 0 10% 0 10%;
+  width: 80%;
+  margin: 0 10% 0 10%;
   @media (min-width: 768px) {
     width: 20%;
     margin: 0 0 0 0;
@@ -141,15 +141,17 @@ const FooterLogo = styled.img`
 `
 
 const Home = () => (
-  <div style={{ maxWidth: "1200px", marginLeft: "auto", marginRight: "auto" }}>
+  <div style={{ maxWidth: "1200px", marginLeft: "10%", marginRight: "10%" }}>
     <SectionTitle>Welcome to Seeds of Support!</SectionTitle>
     <MissionStatement>
-      We are a secular, non-profit organization that focuses on helping people
-      in the bay area regain and maintain a firm grip on their recovery and find
-      a new direction in life. We are cannabis friendly and operate under the
-      philosophy that "Green is Clean" and strive to both spread awareness about
-      and de-stigmatize addiction. For more about our mission and who we are go
-      to our 'Mission' page.
+      We are a secular, all-encompassing and judgement free support group. Our
+      non-profit organization is committed to destigmatizing addiction, mental
+      health issues and battling chronic health ailments with a harm reduction
+      and holistic doctrine. Based in Oakland, California we provide a "Green
+      and Clean" environment to our members while providing compassionate
+      outreach to Oakland's disenfranchised communities. To learn more about who
+      we are please feel free to reach out and contact us by phone or email any
+      time of day!
     </MissionStatement>
     <SectionTitle>Board of Directors</SectionTitle>
     <BoardMemberContainer>
@@ -201,7 +203,7 @@ const Home = () => (
       </div>
     </BoardMemberContainer>
     <Link to="/Contact/">
-    <SectionTitle>Contact Us</SectionTitle>
+      <SectionTitle>Contact Us</SectionTitle>
     </Link>
     <FooterContainer>
       {/* <div>
