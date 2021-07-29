@@ -37,7 +37,7 @@ text-align: center;
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: "rgb(250, 250, 250)",
+      background: "rgb(30, 30, 30)",
       marginBottom: `1.45rem`,
     }}
   >
