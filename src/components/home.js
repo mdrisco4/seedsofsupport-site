@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 const SectionTitle = styled.div`
   font-size: 50px;
   text-align: center;
-  color: rgb(123, 94, 55);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   margin-bottom: 20px;
   line-height: 50px;
@@ -20,7 +20,7 @@ const SectionTitle = styled.div`
 const MissionStatement = styled.div`
   font-size: 24px;
   text-align: center;
-  color: rgb(35, 77, 32);
+  color: rgb(154, 157, 159);
   font-weight: bold;
   margin-bottom: 15px;
   @media (min-width: 800px) {
@@ -68,6 +68,8 @@ const BoardTitle = styled.div`
   margin-bottom: 15px;
   font-weight: bold;
   line-height: 35px;
+  color: white;
+  text-decoration: none;
   @media (min-width: 550px) {
     font-size: 28px;
   }
@@ -82,7 +84,7 @@ const BoardTitle = styled.div`
 const BoardDescription = styled.div`
   font-size: 15px;
   margin-left: 10px;
-  color: rgb(35, 77, 32);
+  color: rgb(154, 157, 159);
   font-weight: bold;
   @media (min-width: 550px) {
     font-size: 20px;
@@ -157,7 +159,7 @@ const Home = () => (
     <BoardMemberContainer>
       <BoardPhoto src="https://i.imgur.com/RVGefKN.png" />
       <div>
-        <Link to="/Jake/">
+        <Link to="/Jake/" style={{ textDecoration: 'none' }}>
           <BoardTitle>Chief Executive Officer: Jake Sassaman</BoardTitle>
         </Link>
         <BoardDescription>
@@ -171,7 +173,7 @@ const Home = () => (
     <BoardMemberContainer>
       <BoardPhoto src="https://i.imgur.com/Qj8xvO8.jpg" />
       <div>
-        <Link to="/Heather/">
+        <Link to="/Heather/" style={{ textDecoration: 'none' }}>
           <BoardTitle>Chief Operating Officer: Heather Yount</BoardTitle>
         </Link>
         <BoardDescription>
@@ -186,7 +188,7 @@ const Home = () => (
     <BoardMemberContainer>
       <BoardPhoto src="https://i.imgur.com/5nsBb1D.png" />
       <div>
-        <Link to="/Natalia/">
+        <Link to="/Natalia/" style={{ textDecoration: 'none' }}>
           <BoardTitle>Advisory Board Member: Natalia Thurston</BoardTitle>
         </Link>
         <BoardDescription>

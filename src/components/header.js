@@ -54,21 +54,14 @@ const Header = ({ siteTitle }) => (
         />
       </Link>
       <HeaderItem>
-        <Link
-          to="/About/"
-          style={{
-            textdecoration: "none",
-          }}
-        >
+        <Link to="/About/" style={{ textDecoration: "none", color: "white" }}>
           About
         </Link>
       </HeaderItem>
       <HeaderItem>
         <Link
           to="/OurMission/"
-          style={{
-            textdecoration: "none",
-          }}
+          style={{ textDecoration: "none", color: "white" }}
         >
           Our Mission
         </Link>
@@ -76,20 +69,13 @@ const Header = ({ siteTitle }) => (
       <HeaderItem>
         <Link
           to="/BoardOfDirectors/"
-          style={{
-            textdecoration: "none",
-          }}
+          style={{ textDecoration: "none", color: "white" }}
         >
           Board of Directors
         </Link>
       </HeaderItem>
       <HeaderItem>
-        <Link
-          to="/Contact/"
-          style={{
-            textdecoration: "none",
-          }}
-        >
+        <Link to="/Contact/" style={{ textDecoration: "none", color: "white" }}>
           Contact
         </Link>
       </HeaderItem>
