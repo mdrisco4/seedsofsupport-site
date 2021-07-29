@@ -204,7 +204,7 @@ const Home = () => (
         </BoardDescription>
       </div>
     </BoardMemberContainer>
-    <Link to="/Contact/">
+    <Link to="/Contact/" style={{ textDecoration: "none", color: "white" }}>
       <SectionTitle>Contact Us</SectionTitle>
     </Link>
     <FooterContainer>
